@@ -118,6 +118,11 @@ Example:
     {
       "msg": "Invalid Email",
       "param": "email",
+      {
+        "msg": "Last name must be greater than 3",
+        "param": "fullname.lastname",
+        "location": "body"
+      }
       "location": "body"
     },
     {
