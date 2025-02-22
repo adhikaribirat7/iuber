@@ -10,12 +10,7 @@ module.exports.createCaptain = async ({
   vehicleType,
   plate,
 }) => {
-  console.log("captain service", {
-    fullname: { firstname, lastname },
-    email,
-    password,
-    vehicle: { color, plate, capacity, vehicleType },
-  });
+
   if (
     !firstname ||
     !lastname ||
